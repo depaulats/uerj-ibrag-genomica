@@ -6,13 +6,13 @@ Este espaço foi criado para concentrar todos os recursos necessários para as a
 
 ## Estrutura do Repositório
 
-    /datasets: Contém os conjuntos de dados utilizados nas atividades.
+/datasets: Contém os conjuntos de dados utilizados nas atividades.
 
-    /scripts: Inclui códigos e pipelines para análise de dados genômicos.
+/scripts: Inclui códigos e pipelines para análise de dados genômicos.
 
-    /pacotes: Lista e instruções de instalação de ferramentas de bioinformática.
+/pacotes: Lista e instruções de instalação de ferramentas de bioinformática.
 
-    /guides: Tutoriais e manuais para apoio durante as práticas.
+/guides: Tutoriais e manuais para apoio durante as práticas.
 
 ## Objetivo
 
@@ -45,10 +45,7 @@ Discentes matriculados na disciplina de Genômica do IBRAG.
 
 Clone o repositório em sua máquina local:
 
-```
-git clone https://github.com/seu-usuario/genomica-2024.git
-
-```
+    git clone https://github.com/seu-usuario/genomica-2024.git
 
 Siga as instruções específicas de cada atividade disponíveis na pasta correspondente.
 
