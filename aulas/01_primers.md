@@ -22,3 +22,6 @@ Primers para 16S de metazoários basais ([Lavrov et al. 2008](http://dx.doi.org/
 
 ## Atividade 2 -- desenho de novos primers
 
+Considere que você queira estudar uma determinada variante genética, como uma associação do polimorfismo rs2424913 da (citosina-5)-metiltransferase 3 beta sobre o risco de gravidez na Sindrome de Down ([Moura et al. 2018](https://doi.org/10.1016/j.sjbs.2017.09.008))
+
+No site dhttps://www.ncbi.nlm.nih.gov/snp/
