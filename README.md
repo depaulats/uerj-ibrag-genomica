@@ -1,18 +1,18 @@
-# Genômica
+# Genômica 2025/2
 
 Bem-vindo ao repositório oficial da disciplina ***Genômica*** do Instituto de Biologia Roberto Alcantara Gomes (IBRAG) da Universidade do Estado do Rio de Janeiro (UERJ)!
 
-Este espaço foi criado para concentrar todos os recursos necessários para as atividades práticas da disciplina. Aqui você encontrará scripts, ferramentas de bioinformática, conjuntos de dados (datasets) e instruções detalhadas para auxiliar no seu aprendizado.
+Este espaço foi criado para concentrar todos os recursos necessários para as atividades práticas da disciplina. Aqui você encontrará scripts, ferramentas de bioinformática, conjuntos de dados e instruções detalhadas para auxiliar no seu aprendizado.
 
 ## Estrutura do Repositório
 
-/datasets: Contém os conjuntos de dados utilizados nas atividades.
+/aulas: Tutoriais e manuais para apoio durante as aulas práticas
 
-/scripts: Inclui códigos e pipelines para análise de dados genômicos.
+/dados: Contém os conjuntos de dados utilizados nas atividades.
 
-/pacotes: Lista e instruções de instalação de ferramentas de bioinformática.
+/ferramentas: Lista e instruções de instalação de ferramentas de bioinformática.
 
-/guides: Tutoriais e manuais para apoio durante as práticas.
+/roteiros: Inclui códigos e scripts para análise de dados genômicos.
 
 ## Objetivo
 
@@ -21,20 +21,20 @@ O objetivo deste repositório é fornecer um ambiente organizado e de fácil ace
 - Reproduzir análises bioinformáticas;
 
 - Explorar dados genômicos reais;
-- 
+  
 - Desenvolver habilidades práticas em bioinformática.
 
 ## Ferramentas Utilizadas
 
 Entre as ferramentas que serão abordadas estão:
 
-- Alinhadores (e.g., BWA, Bowtie2)
+- Alinhadores (e.g., [Bowtie2](https://github.com/BenLangmead/bowtie2))
 
-- Visualizadores de genomas (e.g., IGV)
+- Visualizadores de genomas (e.g., [IGV](https://igv.org/))
 
-- Softwares para análise de variantes (e.g., GATK, Samtools)
+- Softwares para análise de variantes (e.g., [Samtools](https://github.com/samtools/samtools))
 
-- Linguagens como R e Python para análise estatística e manipulação de dados
+- Linguagens como R para análise estatística e manipulação de dados
 
 ## Público-Alvo
 
