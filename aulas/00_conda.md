@@ -14,6 +14,7 @@ rm ~/miniconda3/miniconda.sh
 Depois disso, você precisa fechar e reabrir seu aplicativo de terminal para inicializar o Conda em todos os shells disponíveis, executando:
 
 ```
+source ~/.bashrc
 conda init --all
 ```
 
