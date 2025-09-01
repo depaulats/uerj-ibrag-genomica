@@ -82,3 +82,14 @@ conda install bioconda::seu-pacote
 ```
 
 Depois de saber qual pacote está procurando, basta pesquisar seus nomes em qualquer mecanismo de busca para encontrar o que precisa, incluindo os termos "github" ou "bioconda".
+
+
+
+Remover o CONDA
+
+# Remove existing installation
+    rm -rf ~/miniconda3
+
+# Download and install fresh
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh
