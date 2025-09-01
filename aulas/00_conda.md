@@ -5,16 +5,14 @@
 A instalação é simples. Basta executar os comandos abaixo para baixar a versão mais recente e executar a instalação (que será excluída posteriormente).
 
 ```
-mkdir -p ~/miniconda3
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
 rm ~/miniconda3/miniconda.sh
 ```
 
 Depois disso, você precisa fechar e reabrir seu aplicativo de terminal para inicializar o Conda em todos os shells disponíveis, executando:
 
 ```
-source ~/.bashrc
 conda init --all
 ```
 
