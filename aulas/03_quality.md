@@ -71,12 +71,12 @@ Agora execute o comando:
 
 ```
 trimmomatic PE -threads 8 -phred33 \
-/mnt/c/genomica/SRR28641204/SSRR28641204_1.fastq \
-/mnt/c/genomica/SRR28641204/SSRR28641204_2.fastq \
-/mnt/c/genomica/SRR28641204/SSRR28641204_1_paired.fastq \
-/mnt/c/genomica/SRR28641204/SSRR28641204_1_unpaired.fastq \
-/mnt/c/genomica/SRR28641204/SSRR28641204_2_paired.fastq \
-/mnt/c/genomica/SRR28641204/SSRR28641204_2_unpaired.fastq \
+/mnt/c/genomica/SRR28641204/SRR28641204_1.fastq \
+/mnt/c/genomica/SRR28641204/SRR28641204_2.fastq \
+/mnt/c/genomica/SRR28641204/SRR28641204_1_paired.fastq \
+/mnt/c/genomica/SRR28641204/SRR28641204_1_unpaired.fastq \
+/mnt/c/genomica/SRR28641204/SRR28641204_2_paired.fastq \
+/mnt/c/genomica/SRR28641204/SRR28641204_2_unpaired.fastq \
 ILLUMINACLIP:/mnt/c/genomica/NexteraPE-PE.fa:2:30:10 \
 LEADING:3 TRAILING:3 \
 SLIDINGWINDOW:4:20 \
