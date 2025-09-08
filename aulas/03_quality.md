@@ -22,10 +22,9 @@ Assim, para fazer a demultiplexação das amostras, rode o commando:
 
 ```
 while IFS=$'\t' read -r sample index; do
-    grep "$index" -A 3 multiplexed.fastq > "${sample}.fastq"
+    grep "$index" -A 3 R1.fastq > "${sample}_R1.fastq"
+    grep "$index" -A 3 R2.fastq > "${sample}_R2.fastq"
 done < index.txt
-<img width="1134" height="143" alt="image" src="https://github.com/user-attachments/assets/d48f8f5a-cb19-44f8-8c36-b5f5cf5379cb" />
-
 ```
 
 Para saber quantas leituras estão salvas em cada arquivo `.FASTQ` que está localizado na pasta ativa, rode o comando:
