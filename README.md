@@ -4,6 +4,8 @@ Bem-vindo ao repositório oficial da disciplina ***Genômica*** do Instituto de 
 
 Este espaço foi criado para concentrar todos os recursos necessários para as atividades práticas da disciplina. Aqui você encontrará scripts, ferramentas de bioinformática, conjuntos de dados e instruções detalhadas para auxiliar no seu aprendizado.
 
+Link para a pasta [compartilhada](https://drive.google.com/drive/folders/1F_8FSIkL2gu_zn1-07MG9qrml5RkyR-k?usp=sharing) da disciplina no Google Drive
+
 ## Estrutura do Repositório
 
 /aulas: Tutoriais e manuais para apoio durante as aulas práticas
