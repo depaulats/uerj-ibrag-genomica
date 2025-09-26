@@ -9,10 +9,10 @@ Faço o download dos dados de RADseq disponíveis no NCBI-SRA usando o programa 
 ```
 conda deactivate  # If you are not at (base) environment
 conda activate sratools
-mkdir /home/c/genomica/stacks && cd $_
-fastq-dump --accession SRR20082728 --gzip --split-files --defline-seq '@$ac.$si/$ri' --defline-qual '+$ac.$si/$ri' --outdir ./raw
-fastq-dump --accession SRR20082764 --gzip --split-files --defline-seq '@$ac.$si/$ri' --defline-qual '+$ac.$si/$ri' --outdir ./raw
-fastq-dump --accession SRR20082787 --gzip --split-files --defline-seq '@$ac.$si/$ri' --defline-qual '+$ac.$si/$ri' --outdir ./raw
+mkdir -p /mnt/c/genomica/stacks/raw && cd /mnt/c/genomica/stacks/
+fasterq-dump SRR20082728 -O ./raw --split-files --threads 8 --progress
+fasterq-dump SRR20082764 -O ./raw --split-files --threads 8 --progress
+fasterq-dump SRR20082787 -O ./raw --split-files --threads 8 --progress
 ```
 
 Os dados são de três indivídus de peixe-gelo-cavala (*Champsocephalus* sp.), sequenciado em pares em uma biblioteca RADseq de digestão única usando a enzima de restrição SbfI ([Rivera-Colón et al., 2023](https://doi.org/10.1093/molbev/msad029)).
@@ -35,9 +35,18 @@ conda install bioconda::stacks
 Agora podemos prosseguir com a limpeza dos dados, aplicando filtros de qualidade (--clean e --quality), especificando e recuperando o local de corte do SbfI (--renz-1 sbfI e --rescue) e habilitando manualmente a filtragem de execuções poly-G (--force-poly-g-check). Além disso, queremos aplicar um nome mais informativo aos arquivos resultantes, que podemos especificar usando a opção --basename.
 
 ```
+mkdir -p /mnt/c/genomica/stacks/processed
 process_radtags -1 ./raw/SRR20082728_1.fastq.gz -2 ./raw/SRR20082728_2.fastq.gz  --out-path ./processed --clean --quality --rescue --renz-1 sbfI --force-poly-g-check --basename Cgu_SG25
 process_radtags -1 ./raw/SRR20082764_1.fastq.gz -2 ./raw/SRR20082764_2.fastq.gz  --out-path ./processed --clean --quality --rescue --renz-1 sbfI --force-poly-g-check --basename Cgu_AP11
 process_radtags -1 ./raw/SRR20082787_1.fastq.gz -2 ./raw/SRR20082787_2.fastq.gz  --out-path ./processed --clean --quality --rescue --renz-1 sbfI --force-poly-g-check --basename Ces_SM12
 ```
 
+
+```
+cat > popmap << EOF
+Cgu_SG25  SG
+Cgu_AP11  AP
+Ces_SM12  SM
+EOF
+```
 
