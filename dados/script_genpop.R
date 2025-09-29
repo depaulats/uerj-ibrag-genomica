@@ -1,3 +1,8 @@
+# Este script é uma adaptação do tutorial 
+# "Calculating genetic differentiation and clustering methods from SNP data"
+# Disponível em https://popgen.nescent.org/DifferentiationSNP.html
+# Acessado em 29/09/2025
+
 # Configurando a pasta de trabalho
 
 dir.create("C:/genomica/R/")
