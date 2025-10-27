@@ -63,11 +63,15 @@ IMPORTANTE: Verifique a versão do arquivo antes de executar o código.
 Execute o RAxML-NG usando as configurações:
 
 Análise completa, ou seja, um comando (--all) para recuperar a árvore com melhor pontuação a partir de 20 inferências independentes e valores de suporte de réplicas de bootstrap;
+
 MSA, ou matriz, (--msa) está no arquivo gb_all_final.fas
 O formato MSA (--msa-format) está definido como FASTA;
+
 Modelo evolutivo e partições (--model) fornecidos no arquivo cat_partitions.txt;
 Análise de bootstrap (--bs-trees) definida como Bootstopping automático (autoMRE) para até 500 réplicas;
+
 Métrica de suporte de bootstrap (--bs-metric) calculada usando "Transfer Bootstrap Expectation" (TBE);
+
 Seed definido como 12345.
 
 IMPORTANTE: O código abaixo está executando o binário do arquivo baixado. Para executar o binário instalado via Conda, remova o caminho /mnt/c/Ubuntu/ do código.
