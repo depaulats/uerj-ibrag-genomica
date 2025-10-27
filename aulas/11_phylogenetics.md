@@ -79,5 +79,4 @@ Para as matrix concatenada:
 
 E para cada matrix separadamente:
 
-        /mnt/c/genomica/raxml-ng/raxml-ng  --all --msa VertALL.fas --msa-format FASTA --seed 12345 --model mtZOA+G10+FO  --bs-trees autoMRE{500} --bs-metric TBE --prefix VertALL
-            /mnt/c/genomica/raxml-ng/raxml-ng  --all --msa VertALL.fas --msa-format FASTA --seed 12345 --model mtZOA+G10+FO  --bs-trees autoMRE{500} --bs-metric TBE --prefix VertALL
+    raxml-ng  --all --msa VertCOX1.g.fas --msa-format FASTA --seed 12345 --model GTR+G10+FO  --bs-trees autoMRE{500} --bs-metric TBE --prefix VertCOX1
