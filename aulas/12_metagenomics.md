@@ -39,20 +39,15 @@ Vamos fazer isso para um determinado comprimento de k-mer, por exemplo os contig
 
 Vamos baixar agora o programa [Bandage v0.8.1 para Windows](https://github.com/rrwick/Bandage/releases/download/v0.8.1/Bandage_Windows_v0_8_1.zip) clicando no link e descompatar o arquivo para uma pasta `Bandage` dentro da pasta de trabalho `genomica`.
 
-Executando o arquivo `Bandage.exe`, vamos abrir o arquivo com os grafos `k99.fastg` navegando em em *File > Load graph8, e em seguida desenhamos os grafos clicamos em *Draw graph*.
+Executando o arquivo `Bandage.exe`, vamos abrir o arquivo com os grafos `k99.fastg` navegando em em *File > Load graph*, e em seguida desenhamos os grafos clicamos em *Draw graph*.
 
 Algumas vantagens em visualizar grafos:
 
 - Avaliar e comparar a qualidade de montagens de forma rápida e visual;
-
 - Identificar regiões problemáticas em uma montagem;
-
 - Resolver ambiguidades no grafo para aprimorar ou completar montagens *de novo*;
-
 - Determinar quais outros nós possuem sequências contíguas a um nó de interesse;
-
 - Anotar imagens do grafo para ilustrar características da montagem; e
-
 - Extrair sequências candidatas que se estendem por múltiplos nós.
 
 Você pode apontar alguma delas?
