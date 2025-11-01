@@ -18,11 +18,8 @@ Iremos usar os dados gerados na [Aula 3: Controle de Qualidade NGS](https://gith
 Após algum tempo, os contigs serão montados. 
 
 - Quantas contig foram recuperados?
-
 - Quantas bases eles apresentam no total?
-
 - Quais são maior e o menor contig?
-
 - Qual o tamanho mediano dos contigs gerados?
 
 
