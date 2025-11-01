@@ -1,4 +1,4 @@
-# # Análise de Metagenomas
+# Análise de Metagenomas
 
 ## Atividade 1 - Montagem *de novo* de Metagenomas
 
